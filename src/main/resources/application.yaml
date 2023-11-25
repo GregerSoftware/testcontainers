@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: container-service
+  data:
+    mongodb:
+      database: test
+  kafka:
+    producer:
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
